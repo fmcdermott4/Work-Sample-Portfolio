@@ -1,14 +1,20 @@
-body {
-    background-image: url('coffeeBackground.jpg');
-    background-size: 100%;
-    color: #72b472;
+
+*{
     text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000; 
         /* https://wpshout.com/quick-guides/create-text-outline-css/ */
+        color: #72b472
 }
+h1, h2 {
+    text-align:center;
+}
+body {
+    background-image: url('coffeeBackground.jpg');
+    background-size: 100%;
+    }
 nav {
     
     position:fixed;
@@ -24,11 +30,7 @@ nav ul {
 }
 nav ul li {
     margin-left: 25px;
-    
-}
-nav ul li a {
-    color: #72b472;
-}
+    }
 header h1 {
     margin-top:50px;
 }
@@ -58,6 +60,7 @@ main section p {
     border-style: solid;
     border-width: 5px 5px 5px 5px;
     background-color: #681c1c4f;
+    font-size:x-large;
 }
 section ul {
     display:flex;
@@ -71,8 +74,19 @@ section ul li {
     flex-direction: column;
     align-items: center;
     width: 40%;
+    text
 }
 section ul li img {
     width:100%;
 }
-@media 
+@media screen and (max-width:768px) {
+    section ul li {
+        width:80%;
+    }
+    main section img {
+        width:70%
+    }
+    main section p {
+        width:80%
+    }
+}
