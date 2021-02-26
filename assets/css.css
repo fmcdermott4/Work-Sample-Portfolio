@@ -14,6 +14,7 @@ h1, h2 {
 body {
     background-image: url('coffeeBackground.jpg');
     background-size: 100%;
+    background-attachment:fixed;
     }
 nav {
     
@@ -68,6 +69,7 @@ section ul {
     flex-direction:row;
     list-style-type: none;
     justify-content: space-around;
+    align-items: center;
 }
 section ul li {
     display:flex;
@@ -82,7 +84,7 @@ section ul li img {
 section ul li a {
     background-color:#681c1c4f;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:1080px) {
     section ul li {
         width:80%;
     }
