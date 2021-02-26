@@ -6,7 +6,7 @@
 		-1px 1px 0 #000,
 		1px 1px 0 #000; 
         /* https://wpshout.com/quick-guides/create-text-outline-css/ */
-        color: #72b472
+        color: #006cd1
 }
 h1, h2 {
     text-align:center;
@@ -74,10 +74,13 @@ section ul li {
     flex-direction: column;
     align-items: center;
     width: 40%;
-    text
+    text-align:center;
 }
 section ul li img {
     width:100%;
+}
+section ul li a {
+    background-color:#681c1c4f;
 }
 @media screen and (max-width:768px) {
     section ul li {
