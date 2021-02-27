@@ -17,11 +17,10 @@ body {
     background-attachment:fixed;
     }
 nav {
-    
-    position:fixed;
+        position:fixed;
     top:0;
     width:100%;
-    background-color: #681c1c4f;
+    background-color: #681c1c;
 }
 nav ul {
     display:flex;
